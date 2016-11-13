@@ -5,7 +5,7 @@ body {
   color: #000000;
 }
 .container {
-  width:1440px;
+  width:1160px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -124,15 +124,15 @@ body {
 }
 
 .slide:nth-child(1) {
-  background-image: url("img/slider-1.jpg");
+  background-image: url("../img/slider-1.jpg");
 }
 
 .slide:nth-child(2) {
-  background-image: url("img/slider-2.jpg");
+  background-image: url("../img/slider-2.jpg");
 }
 
 .slide:nth-child(3) {
-  background-image: url("img/slider-3.jpg");
+  background-image: url("../img/slider-3.jpg");
 }
 
 #btn-1:checked ~ .slides .slide:nth-child(1) {
@@ -175,6 +175,7 @@ body {
 }
 .services {
   padding-top:80px;
+  width: 1160px;
 }
 .services li {
   display:inline;
@@ -182,7 +183,7 @@ body {
 }
 .services-item1 {
   padding-right:100px;
-  padding-left:140px;
+  margin-left: 0px;
   width:300px;
   height:350px;
 }
@@ -247,9 +248,13 @@ body {
 .about-us-left {
   display:block;
   float:left;
-  padding-right:140px;
-  padding-left:140px;
   width:720px;
+}
+.background-header {
+  background: #eeeeee;
+}
+.background-slider {
+  background: #eeeeee;
 }
 .about-us-right {
   display:block;
@@ -265,10 +270,12 @@ body {
 }
 .partners {
   display:block;
-  padding-left:120px;
+  width:1160px;
+  opacity: 0.3;
+  margin-right:120px;
 }
 .contact-info .btn {
-    display: block;
+  display: block;
   width: 220px;
   margin-top: 25px;
   padding: 12px 10px;
@@ -320,12 +327,60 @@ body {
   z-index:1;
   float:left;
   position:relative;
+  width:100%;
 }
 .contact-info {
-  position:relative;
-  top:-350px;
+  position:absolute;
   z-index:2;
   height:305px;
   width:315px;
   background-color: white;
+  top: 60px;
+  left:150px;
+  bottom:-350px;
+}
+.contacts {
+  position:relative;
+}
+.insta {
+  width:80px;
+  height:80px;
+  background-color:#aaa;
+  border-radius:50%;
+  position:relative;
+}
+.insta::after {
+  content:url("../img/insta-icon.png");
+  display:block;
+  position:absolute;
+  top:28px;
+  left:28px;
+}
+.vk {
+  width:80px;
+  height:80px;
+  background-color:#aaa;
+  border-radius:50%;
+  position:relative;
+}
+.vk::after {
+  content:url("../img/vk-icon1.png");
+  display:block;
+  position:absolute;
+  top:28px;
+  left:28px;
+}
+.fb {
+  width:80px;
+  height:80px;
+  background-color:#aaa;
+  border-radius:50%;
+  position:relative;
+}
+.fb::after {
+  content:url("../img/fb-icon.png");
+  display:block;
+  position:absolute;
+  top:28px;
+  left:28px;
 }
