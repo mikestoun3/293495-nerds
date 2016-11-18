@@ -4,16 +4,17 @@
    <meta charset="utf-8">
    <title>Веб-студия Nerds</title>
    <link href="css/style.css" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
      </head>
   <body>
      <div class="background-header">
-   <div class="page-header clearfix">
+     <div class="container">
+   <div class="page-header clearfix container">
 
      <div class="header-logo container">
        <img src="img/nerds-logo.png" alt="Nerds-logo" width="160" height="70">
      </div>
-     <ul class="main-nav">
+     <ul class="main-nav container">
       <li><a href="#">Студия</a></li>
       <li><a href="#">Клиенты</a></li>
       <li><a href="#">Магазин</a></li>
@@ -23,7 +24,7 @@
       <a href="#">Корзина</a>
      </div>
    </div>
-   </div>
+
 <div class="background-slider">
        <div class="slider container">
         <input type="radio" id="btn-1" name="toggle" checked>
@@ -35,7 +36,7 @@
           <label for="btn-3"></label>
         </div>
         <div class="slides clearfix">
-          <div class="slide">
+          <div class="slide container">
             <div class="slide-text">
               <h3 class="slide-title">Долго, дорого, скрупулезно</h3>
               <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
@@ -58,9 +59,11 @@
           </div>
         </div>
         </div>
+        </div>
+      </div>
       </div>
       <div class="services container">
-        <ul class="clearfix">
+        <ul class=" services clearfix">
           <li class="services-item1">
             <img src="img/serviceitem1.jpg" width="300" height="146" alt="Веб-сайт">
             <h2>Веб-сайты</h2>
@@ -86,9 +89,9 @@
   <!--Левый-->
     <div class="about-us-left">
       <h2 class="about-us-promo">Мы - маленькая, но гордая дизайн-студия из Краснодара</h2>
-      <p class="about-us">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.<p>
-      <h3 class="about-us">Выполняем заказы на разработку:</h3>
-      <ul class="about us">
+      <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.<p>
+      <h3>Выполняем заказы на разработку:</h3>
+      <ul>
         <li>Веб-сайтов любой сложности</li>
         <li>Мобильных приложений для iOS и Android</li>
         <li>Слайдшоу и видео для корпоративных презентаций</li>
@@ -98,8 +101,8 @@
   <!--Правый-->
     <div class="about-us-right container">
       <img src="img/nerds-illustration.jpg" alt="Студия Nerds">
-      <h3 class="about-us">С 2004 года любим точность во всем:</h3>
-      <ul class="about-us">
+      <h3>С 2004 года любим точность во всем:</h3>
+      <ul>
         <li><span>146<sup>%</sup></span><br>Уровень самоотдачи</li>
         <li><span>100<sup>%</sup></span><br>Соблюдение сроков</li>
         <li><span>50<sup>%</sup></span><br>Минимальная предоплата</li>
@@ -110,21 +113,22 @@
   
   <!-- Партнеры -->
   <div class="partners container ">
-    <a href ="#"> <img src="img/logo-1.png" width="200" height="180" alt="Htmlacademy"></a>
-    <a href ="#"> <img src="img/logo-2.png" width="200" height="180" alt="Borodinskybarber"></a>
-    <a href ="#"> <img src="img/logo-3.png" width="200" height="180" alt="pink-partnter"></a>
-    <a href ="#"> <img src="img/logo-4.png" width="200" height="180" alt="Mishka-partner"></a>
+    <a href ="#"> <img src="img/logo-1.png" width="199" height="68" alt="Htmlacademy"></a>
+    <a href ="#"> <img src="img/logo-2.png" width="209" height="90" alt="Borodinskybarber"></a>
+    <a href ="#"> <img src="img/logo-3.png" width="185" height="52" alt="pink-partnter"></a>
+    <a href ="#"> <img src="img/logo-4.png" width="173" height="84" alt="Mishka-partner"></a>
   </div>  
   <div class="contacts clearfix">
-    <div class="footer-map">
-      <div id="yandex-map"></div>
-    </div> 
-    <div class="contact-info">
-      <h3>Nёrds design studio</h3>
-      <p>191186, Санкт-Петербург, <br>
-      ул. Конюшенная, д. 19/8 <br>
-      тел.+7(812)275-75-75</p>
-      <a class="btn" href="#">Напишите нам</a>
+    <div class="footer-map>
+	<div id="id="yandex-map">
+	</div>
+	</div> 
+      <div class="contact-info">
+        <h3>Nёrds design studio</h3>
+        <p>191186, Санкт-Петербург, <br>
+        ул. Конюшенная, д. 19/8 <br></p>
+        <p>тел.+7(812)275-75-75</p>
+        <a class="btn btn-feedback" href="#">Напишите нам</a>
       </div>
     </div>
 
@@ -164,5 +168,13 @@
   </div>
   <!--Обратная связь-end-->
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=YjHWy5o9ynjwYcfAcICmPcK2xYaHJtwt&amp;width=100%&amp;height=420&amp;id=yandex-map&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script> 
+  <script>
+   var link = document.querySelector(".btn-feedback");
+   vap popup = document.querySelector(".feedback");
+   popup.classList.add("feedback-on")
+   link.addEventListener ("click", function(event) {event.preventDefault();
+   console.log("пока все верно");
+   });
+  </script>
   </body>
   </html>
