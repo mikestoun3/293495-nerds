@@ -4,26 +4,27 @@
    <meta charset="utf-8">
    <title>Веб-студия Nerds</title>
    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
      </head>
   <body>
      <div class="background-header">
-     <div class="container">
-   <div class="page-header clearfix container">
+	<div class="container">
+		<div class="page-header clearfix">
 
-     <div class="header-logo container">
-       <img src="img/nerds-logo.png" alt="Nerds-logo" width="160" height="70">
-     </div>
-     <ul class="main-nav container">
-      <li><a href="#">Студия</a></li>
-      <li><a href="#">Клиенты</a></li>
-      <li><a href="#">Магазин</a></li>
-      <li><a href="#">Контакты</a></li>
-     </ul>
-     <div class="basket">
-      <a href="#">Корзина</a>
-     </div>
-   </div>
+		<div class="header-logo">
+		<img src="img/nerds-logo.png" alt="Nerds-logo" width="160" height="70">
+		</div>
+		<ul class="main-nav">
+		<li><a href="#">Студия</a></li>
+		<li><a href="#">Клиенты</a></li>
+		<li><a href="#">Магазин</a></li>
+		<li><a href="#">Контакты</a></li>
+		</ul>
+		<div class="basket">
+		<a href="#">Корзина</a>
+		</div>
+		</div>
 
 <div class="background-slider">
        <div class="slider container">
@@ -38,8 +39,8 @@
         <div class="slides clearfix">
           <div class="slide container">
             <div class="slide-text">
-              <h3 class="slide-title">Долго, дорого, скрупулезно</h3>
-              <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+              <h3 class="slide-title">Долго, дорого, скрупулезно.</h3>
+              <p>Математически выверенный дизайн <span>для вашего сайта или мобильного приложения.</span></p>
               <a class="btn" href="#">Узнать больше</a>
             </div>
           </div>
@@ -63,7 +64,7 @@
       </div>
       </div>
       <div class="services container">
-        <ul class=" services clearfix">
+        <ul class=" services-list clearfix">
           <li class="services-item1">
             <img src="img/serviceitem1.jpg" width="300" height="146" alt="Веб-сайт">
             <h2>Веб-сайты</h2>
@@ -112,17 +113,14 @@
   
   
   <!-- Партнеры -->
-  <div class="partners container ">
+  <ul class="partners container ">
     <a href ="#"> <img src="img/logo-1.png" width="199" height="68" alt="Htmlacademy"></a>
     <a href ="#"> <img src="img/logo-2.png" width="209" height="90" alt="Borodinskybarber"></a>
     <a href ="#"> <img src="img/logo-3.png" width="185" height="52" alt="pink-partnter"></a>
     <a href ="#"> <img src="img/logo-4.png" width="173" height="84" alt="Mishka-partner"></a>
-  </div>  
+  </ul>  
   <div class="contacts clearfix">
-    <div class="footer-map>
-	<div id="id="yandex-map">
-	</div>
-	</div> 
+    <div class="footer-map" id="yandex-map">
       <div class="contact-info">
         <h3>Nёrds design studio</h3>
         <p>191186, Санкт-Петербург, <br>
@@ -131,6 +129,7 @@
         <a class="btn btn-feedback" href="#">Напишите нам</a>
       </div>
     </div>
+	</div>
 
     <div class="social container">
       <div class="social-icons">
