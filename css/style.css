@@ -1445,9 +1445,6 @@ input[type=checkbox]+label:disabled::before {
 .active-page a:hover {
     background:#fff;
 }
-.pagination a:hover {
-    background:#fff;
-}
 .pagination .next {
     padding-left: 78px;
     padding-right: 78px;
