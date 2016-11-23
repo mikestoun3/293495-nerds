@@ -575,6 +575,7 @@ b,label,main {
     position: relative;
     z-index: 23;
     float: left;
+	width:220px;
     padding: 46px 50px 47px;
     font-size: 16px;
     line-height: 18px;
@@ -584,8 +585,7 @@ b,label,main {
 .nds {
     padding-left: 1px;
     padding-top: 2px;
-	width:220px;
-    margin-bottom: 23px;
+    margin-bottom: 28px;
     font-size: 18px;
     line-height: 30px;
     font-weight: 700;
@@ -684,7 +684,6 @@ b,label,main {
     left: 26px;
     width: 26px;
     height: 14px;
-	background-color:#eee;
     background-image: url(../img/spritesheet1.png);
     background-repeat: no-repeat;
     background-position: -5px -93px;
@@ -1066,7 +1065,6 @@ input[type=radio]+label::before {
     left: -3px;
     width: 31px;
     height: 26px;
-    background-color:#eee;
     background: url(../img/spritesheet1.png) no-repeat;
     background-position: 0 -117px;
     opacity: 0.4;
@@ -1080,7 +1078,6 @@ input[type=radio]:checked+label::before {
     left: -3px;
     width: 31px;
     height: 26px;
-	background-color:#eee;
     background: url(../img/spritesheet1.png) no-repeat;
     background-position: 0 -152px;
     cursor: pointer;
