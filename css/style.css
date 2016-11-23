@@ -437,7 +437,7 @@ b,label,main {
 	list-style-type:none;
 }
 .features li {
-    margin: 27px 0 -3px;
+    margin: 28px 0 -3px;
 }
 
 .features li::before {
@@ -590,6 +590,7 @@ b,label,main {
 .nds {
     padding-left: 1px;
     padding-top: 2px;
+	width:220px;
     margin-bottom: 23px;
     font-size: 18px;
     line-height: 30px;
@@ -644,6 +645,8 @@ b,label,main {
     font-size: 0;
 }
 .social-footer li {
+	background:#eee;
+	border-radius:50%;
     display:inline-block;
     margin-right:12px;
 }
