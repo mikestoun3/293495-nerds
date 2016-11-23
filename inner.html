@@ -4,35 +4,45 @@
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
         <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <title>Nerds - Магазин</title>
+        <link href="css/style.min.css" rel="stylesheet">
+        <meta name="format-detection" content="telephone=no">
+        <title>Nerds</title>
     </head>
     <body>
         <header class="main-header">
             <div class="container clearfix">
                 <a class="logo" href="index.html"><img src="img/logo-nerds.png" alt="" width="160" height="65"></a>
-                <div class="main-nav">
+                <nav class="main-navigation">
                     <ul>
-                        <li><a href="index.html">Студия</a></li>
-                        <li><a href="#">Клиенты</a></li>
-                        <li class="active"><a href="inner.html">Магазин</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li>
+                            <a href="index.html">Студия</a>
+                        </li>
+                        <li>
+                            <a href="#">Клиенты</a>
+                        </li>
+                        <li class="active">
+                            <a href="inner.html">Магазин</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
                     </ul>    
-                </div>
+                </nav>
                 <div class="basket-block">
                     <a class="basket basket-box" href="#">Корзина</a>
                 </div>
             </div>
         </header>
         <div class="main-title">
+               <!--широкий серый фон:)-->
             <div class="container">  
                 <h1>Магазин готовых шаблонов</h1>
             </div> 
         </div>    
         <main class="container clearfix">    
-            <form class="filters" action="#" method="post">
+            <form class="filters" action="https://echo.htmlacademy.ru" method="post">
                 <fieldset class="filter">
-                    <legend>Стоимость:</legend>
+                    <legend>Стоймость:</legend>
                     <div class="range-filter">
                                      
                         <div class="range-controls"> 
@@ -60,18 +70,13 @@
                 </fieldset>
                 <fieldset class="features clearfix">
                     <legend>Особенности:</legend>
-                    <input id="slider" class="features" type="checkbox" name="slider" checked>
-                        <label class="feature active" for="slider">Слайдер</label>
-                    <input id="advantage" type="checkbox" name="advantages">
-                        <label class="feature" for="advantage">Блок преемуществ</label>
-                    <input id="news" type="checkbox" name="news" checked>
-                        <label class="feature active" for="news">Новости</label>
-                    <input id="gallery" type="checkbox" name="gallery">
-                        <label class="feature" for="gallery">Галерея</label>
-                    <input id="basket" type="checkbox" name="basket">
-                        <label class="feature" for="basket">Корзина</label>
+                    <input id="slider" class="features" type="checkbox" name="slider" checked><label class="feature active" for="slider">Слайдер</label>
+                    <input id="advantage" type="checkbox" name="advantages"><label class="feature" for="advantage">Блок преемуществ</label>
+                    <input id="news" type="checkbox" name="news" checked><label class="feature active" for="news">Новости</label>
+                    <input id="gallery" type="checkbox" name="gallery"><label class="feature" for="gallery">Галерея</label>
+                    <input id="basket" type="checkbox" name="basket"><label class="feature" for="basket">Корзина</label>
                 </fieldset>
-                <input class="show" type="submit" name="show" id="show" value="Показать">
+                <input class="to-show" type="submit" name="show" id="show" value="Показать">
             </form>
             <div class="main-projects">
                 <div class="separate">
@@ -82,7 +87,7 @@
                         <a href="#">По названию</a>
                     </div>
                     <div class="arrows">
-                        <a class="down active" href="#">По убыванию</a>
+                        <a class="down active" href="#">По убыванию</a> <!--Стрелочки для сортировки по названию-->
                         <a class="up " href="#">По возрастанию</a>
                     </div>
                 </div>
@@ -149,30 +154,31 @@
                     </div>
                 </div>
                 <div class="pagination">
-                    <a class="page active-page" href="#">1</a>
-                    <a class="page" href="#">2</a>
-                    <a class="page" href="#">3</a>
-                    <a class="page next" href="#">Следующая</a>
+                    <a class="active-page" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a class="next" href="#">Следующая</a>
                 </div>
             </div>
         </main>
         <footer class="main-footer clearfix">
             <div class="map-address">
-              <div class="container clearfix">
-                <div class="contact-info">
-                  <b class="nds">NЁRDS DESIGN STUDIO</b>
-                  <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
-                  <p>тел. +7 (812) 275-75-75</p>
-                  <a class="write" href="form.html">Напишите нам</a>
+                <iframe class="interaktive-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1479539301697" width="100" height="100"  style="border:0" allowfullscreen></iframe>
+                <div class="container clearfix">
+                    <div class="address">
+                        <b class="nds">NЁRDS DESIGN STUDIO</b>
+                        <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+                        <p>тел. +7 (812) 275-75-75</p>
+                        <a class="write" href="form.html">Напишите нам</a>
+                    </div>
                 </div>
-              </div>
-             </div>
-             <div class="container">
-               <ul class="social-footer">
-                    <li><a class="social-btn social-btn-vk" href="#">Вконтакте</a></li>
-                    <li><a class="social-btn social-btn-fb" href="#">>Фейсбук</a></li>
-                    <li><a class="social-btn social-btn-inst" href="#">Инстаграм</a></li>
-                  </ul>
+            </div>
+            <div class="container">
+                <div class="footer-social">
+                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                </div>
             </div>
             <div class="footer-text">
                 <b class="friend">Давайте дружить, это выгодно!</b>
@@ -182,7 +188,7 @@
         <div class="modal-content">
             <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
             <h2 class="modal-content-title">Напишите нам</h2>
-            <form class="letter-form" action="#" method="post">
+            <form class="letter-form" action="https://echo.htmlacademy.ru" method="post">
             
             <label class="label-name">Ваше имя:<input class="input-name" id="name-id" type="text" name="name" placeholder="Представьтесь, пожалуйста"></label>
             
@@ -191,7 +197,7 @@
             <textarea placeholder="В свободной форме"></textarea>
             <button class="btn" type="submit">Отправить</button>
             </form>
+        <script src="js/min.js"></script>
         </div>
-        <script src="js/popup.js"></script>
     </body>
 </html>
