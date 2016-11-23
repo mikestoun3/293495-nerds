@@ -1435,7 +1435,9 @@ input[type=checkbox]+label:disabled::before {
     border-color: #d5d5d5;
     background-color: #d5d5d5;
 }
-
+.active-page:hover {
+    background:#fff;
+}
 .pagination .active-page:active {
     box-shadow: none;
     border-top-color: #bfbfbf;
