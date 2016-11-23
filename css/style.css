@@ -6,6 +6,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     color: #283136;
+    min-width:1160px;
 }
 a {
     transition: 300ms;
@@ -44,6 +45,7 @@ b,label,main {
 .container {
     width: 1160px;
     margin: 0 auto;
+    padding:0px 10px;
 }
 
 .clearfix::after {
