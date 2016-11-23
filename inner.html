@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
         <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/style.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <title>Nerds - Магазин</title>
     </head>
     <body>
@@ -30,7 +30,7 @@
             </div> 
         </div>    
         <main class="container clearfix">    
-            <form class="filters" action="#" method="post">
+            <form class="filters" action="" method="post">
                 <fieldset class="filter">
                     <legend>Стоимость:</legend>
                     <div class="range-filter">
@@ -168,11 +168,11 @@
               </div>
              </div>
              <div class="container">
-                <div class="social-footer">
-                    <div class="social-btn social-btn-vk"><a href="#">Вконтакте</a></div>
-                    <div class="social-btn social-btn-fb"><a href="#"> href="#">Фейсбук</a></div>
-                    <div class="social-btn social-btn-inst"><a href="#"> href="#">Инстаграм</a></div>
-                </div>
+                  <ul class="social-footer">
+                    <li><a class="social-btn social-btn-vk" href="#">Вконтакте</a></li>
+                    <li><a class="social-btn social-btn-fb" href="#">Фейсбук</a></li>
+                    <li><a class="social-btn social-btn-inst" href="#">Инстаграм</a></li>
+                  </ul>
             </div>
             <div class="footer-text">
                 <b class="friend">Давайте дружить, это выгодно!</b>
@@ -182,7 +182,7 @@
         <div class="modal-content">
             <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
             <h2 class="modal-content-title">Напишите нам</h2>
-            <form class="letter-form" action="#" method="post">
+            <form class="letter-form" action="https://echo.htmlacademy.ru" method="post">
             
             <label class="label-name">Ваше имя:<input class="input-name" id="name-id" type="text" name="name" placeholder="Представьтесь, пожалуйста"></label>
             
@@ -191,7 +191,7 @@
             <textarea placeholder="В свободной форме"></textarea>
             <button class="btn" type="submit">Отправить</button>
             </form>
+        <script src="js/popup.js"></script>
         </div>
-       <script src="js/popup.js"></script>
     </body>
 </html>
