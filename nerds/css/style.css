@@ -38,7 +38,6 @@ b,label,main {
 }
 
 .main-header {
-    min-width: 1160px;
     background-color: #eee;
 }
 
@@ -300,22 +299,24 @@ b,label,main {
 }
 
 .service {
-    padding-bottom: 80px;
+    padding-bottom: 84px;
 }
 
 .service-item {
     width: 300px;
     float: left;
     margin-right: 100px;
-    padding-top: 178px;
     box-sizing: border-box;
+}
+.service-item img {
+	padding-bottom:24px;
 }
 
 .service-item:nth-child(3) {
     margin-right: 59px;
 }
 
-.feauters p,.order,.service-item p {
+.features p,.order,.service-item p {
     line-height: 24px;
     font-size: 16px;
 }
@@ -373,11 +374,6 @@ b,label,main {
     position: relative;
 }
 
-.websites::before {
-    left: 0;
-    background: url(../img/service-websites.jpg) no-repeat;
-}
-
 .apps::before,.presentation::before,.websites::before {
     content: "";
     position: absolute;
@@ -396,12 +392,19 @@ b,label,main {
 }
 
 .service-title {
+	margin:0;
+	padding:0;
     margin-top: -6px;
     font-size: 24px;
     line-height: 30px;
     text-transform: uppercase;
     font-weight: 700;
 }
+.service-title h3{
+    margin:0;
+	padding:0;
+}
+
 
 .studio {
     float: left;
@@ -415,20 +418,27 @@ b,label,main {
 }
 
 .do {
+	margin:0;
+	padding:0;
+	font-size:16px;
     margin-bottom: -4px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.feauters {
+.feautres {
     font-size: 0;
 }
-
-.feauters p {
+.features ul {
+    margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.features li {
     margin: 27px 0 -3px;
 }
 
-.feauters p::before {
+.features li::before {
     content: "";
     display: inline-block;
     width: 25px;
@@ -444,6 +454,9 @@ b,label,main {
 }
 
 .achievement-title {
+	margin:0;
+	padding:0;
+	font-size:16px;
     padding-left: 45px;
     font-weight: bold;
     text-transform: uppercase;
@@ -478,7 +491,7 @@ b,label,main {
 }
 
 .achievement-items,.contact-info p {
-    padding-left: 2px;
+    padding-left: 5px;
 }
 
 .achievement-item:nth-child(2) {
@@ -486,8 +499,7 @@ b,label,main {
 }
 
 .achievement-item:nth-child(3){
-    padding-left: 4px;
-    margin-left: 0;
+    margin-left: 4px;
 }
 
 .block-studio-achievements {
@@ -550,7 +562,6 @@ b,label,main {
     left: 0;
     width: 100%;
     height: 100%;
-    min-width: 1160px;
 }
 
 .map-address {
@@ -630,6 +641,8 @@ b,label,main {
 
 .footer-text {
     float: left;
+	margin:0;
+	padding:0;
     width: 760px;
 }
 
@@ -897,7 +910,6 @@ input:focus-moz-placeholder {
 }
 
 .main-title {
-    min-width: 1160px;
     padding-top: 1px;
     padding-bottom: 71px;
     background-color: #eee;
@@ -1369,8 +1381,8 @@ input[type=checkbox]+label:disabled::before {
 }
 
 .price:active {
+    color: rgba(255,255,255,.3);
     background-color: #d7373b;
-    color: rba(#fff);
     box-shadow: inset 0 3px 0 #c13135;
 }
 
