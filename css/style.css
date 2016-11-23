@@ -154,11 +154,11 @@ b,label,main {
     content: "";
     position: absolute;
     top: 3px;
-    left: -3px;
+    left: -4px;
     width: 19px;
     height: 19px;
     background-color: #e6e6fa;
-    background: url(../img/spritesheet.png) no-repeat;
+    background: url(../img/spritesheet1.png) no-repeat;
 }
 
 .basket:active {
@@ -384,15 +384,6 @@ b,label,main {
     top: 0;
     left:2px;
 }
-
-.apps::before {
-    background: url(../img/service-apps.jpg) no-repeat;
-}
-
-.presentation::before {
-    background: url(../img/service-presentation.jpg) no-repeat;
-}
-
 .service-title {
 	margin:0;
 	padding:0;
@@ -690,7 +681,7 @@ b,label,main {
     left: 26px;
     width: 26px;
     height: 14px;
-    background-image: url(../img/spritesheet.png);
+    background-image: url(../img/spritesheet1.png);
     background-repeat: no-repeat;
     background-position: -5px -93px;
 }
@@ -1071,7 +1062,7 @@ input[type=radio]+label::before {
     left: -3px;
     width: 31px;
     height: 26px;
-    background: url(../img/spritesheet.png) no-repeat;
+    background: url(../img/spritesheet1.png) no-repeat;
     background-position: 0 -117px;
     opacity: 0.4;
     cursor: pointer;
@@ -1084,7 +1075,7 @@ input[type=radio]:checked+label::before {
     left: -3px;
     width: 31px;
     height: 26px;
-    background: url(../img/spritesheet.png) no-repeat;
+    background: url(../img/spritesheet1.png) no-repeat;
     background-position: 0 -152px;
     cursor: pointer;
 }
@@ -1112,8 +1103,8 @@ input[type=checkbox]+label::before {
     left: -4px;
     width: 31px;
     height: 28px;
-    background: url(../img/sprite-checkbox.png) no-repeat;
-    background-position: 0 0;
+    background: url(../img/spritesheet1.png);
+    background-position: 0 -179px;
     opacity: 0.4;
     cursor: pointer;
 }
@@ -1125,8 +1116,8 @@ input[type=checkbox]:checked+label::before {
     left: -4px;
     width: 31px;
     height: 28px;
-    background: url(../img/sprite-checkbox.png) no-repeat;
-    background-position: 0 -32px;
+    background: url(../img/spritesheet1.png) no-repeat;
+    background-position: 0 -211px;
     cursor: pointer;
 }
 
