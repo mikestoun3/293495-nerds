@@ -1442,7 +1442,7 @@ input[type=checkbox]+label:disabled::before {
     box-shadow: none;
     border-top-color: #bfbfbf;
 }
-.active-page a:hover {
+.pagination .active-page:hover {
     background:#fff;
 }
 .pagination .next {
