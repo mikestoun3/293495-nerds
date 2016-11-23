@@ -125,7 +125,9 @@ b,label,main {
     height: 2px;
     background-color: #fb565a;
 }
-
+.active a:hover {
+color:black;
+}
 .basket-block {
     float: right;
     max-width: 160px;
