@@ -493,7 +493,7 @@ b,label,main {
 }
 
 .achievement-items,.contact-info p {
-    padding-left: 5px;
+    padding-bottom:1px;
 }
 
 .achievement-item:nth-child(2) {
@@ -581,8 +581,7 @@ b,label,main {
     position: relative;
     z-index: 23;
     float: left;
-    height: 200px;
-    padding: 47px 50px 60px;
+    padding: 46px 50px 47px;
     font-size: 16px;
     line-height: 18px;
     background: #fff;
@@ -600,7 +599,7 @@ b,label,main {
 
 .contact-info p:nth-child(3) {
     padding-left: 2px;
-    margin-bottom: 37px;
+    margin-bottom: 34px;
 }
 
 .write {
