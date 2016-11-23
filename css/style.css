@@ -277,6 +277,7 @@ b,label,main {
 .slide-text:nth-child(1) {
     background-image: url(../img/slider-1.jpg);
     background-repeat: no-repeat;
+    background-color: #eee;
     background-position: 100% -7px;
 }
 
@@ -284,11 +285,13 @@ b,label,main {
 .slide-text:nth-child(3) {
     background-image: url(../img/slider-2.jpg);
     background-position: 100% 0;
+	background-color: #eee;
     background-repeat: no-repeat;
 
 }
 
 .slide-text:nth-child(3) {
+	background-color: #eee;
     background-image: url(../img/slider-3.jpg);
 }
 
@@ -561,7 +564,7 @@ b,label,main {
     position: relative;
     height: 416px;
     padding-top: 54px;
-    background-color: #000;
+    background-color: #eee;
     background-image: url(../img/map.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -681,6 +684,7 @@ b,label,main {
     left: 26px;
     width: 26px;
     height: 14px;
+	background-color:#eee;
     background-image: url(../img/spritesheet1.png);
     background-repeat: no-repeat;
     background-position: -5px -93px;
@@ -1062,6 +1066,7 @@ input[type=radio]+label::before {
     left: -3px;
     width: 31px;
     height: 26px;
+    background-color:#eee;
     background: url(../img/spritesheet1.png) no-repeat;
     background-position: 0 -117px;
     opacity: 0.4;
@@ -1075,6 +1080,7 @@ input[type=radio]:checked+label::before {
     left: -3px;
     width: 31px;
     height: 26px;
+	background-color:#eee;
     background: url(../img/spritesheet1.png) no-repeat;
     background-position: 0 -152px;
     cursor: pointer;
@@ -1103,6 +1109,7 @@ input[type=checkbox]+label::before {
     left: -4px;
     width: 31px;
     height: 28px;
+    background-color:#eee;
     background: url(../img/spritesheet1.png);
     background-position: 0 -179px;
     opacity: 0.4;
@@ -1116,6 +1123,7 @@ input[type=checkbox]:checked+label::before {
     left: -4px;
     width: 31px;
     height: 28px;
+    background-color:#eee;
     background: url(../img/spritesheet1.png) no-repeat;
     background-position: 0 -211px;
     cursor: pointer;
