@@ -567,6 +567,7 @@ b,label,main {
     height: 416px;
     padding-top: 54px;
     background-color: #eee;
+    background-image: url(../img/map.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -911,7 +912,6 @@ input:focus-moz-placeholder {
     color: #444;
     border-color: #000;
 }
-
 .letter-form .btn:active {
     color: rgba(255,255,255,.3);
     background-color: #d7373b;
@@ -1451,6 +1451,15 @@ input[type=checkbox]+label:disabled::before {
     padding-left: 78px;
     padding-right: 78px;
     margin-left: 2px;
+}
+.modal-content-close:focus {
+    outline: 0;
+}
+.modal-content .btn:focus {
+    outline:0;
+}
+input[class=input-name]{
+    border: 1px solid red;
 }
 
 @-webkit-keyframes bounce {
