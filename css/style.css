@@ -1365,7 +1365,10 @@ input[type=checkbox]+label:disabled::before {
 .info a,.price {
     text-decoration: none;
 }
-
+.info p{
+    overflow-y:auto;
+    max-height:250px;
+}
 .info .title,.pagination a {
     color: #000;
     font-size: 18px;
@@ -1457,9 +1460,6 @@ input[type=checkbox]+label:disabled::before {
 }
 .modal-content .btn:focus {
     outline:0;
-}
-input[class=input-name]{
-    border: 1px solid red;
 }
 
 @-webkit-keyframes bounce {
